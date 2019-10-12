@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 12, 2019 at 04:26 AM
+-- Generation Time: Oct 12, 2019 at 04:33 AM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -68,7 +68,7 @@ CREATE TABLE `configuration` (
 --
 
 INSERT INTO `configuration` (`id_configuration`, `name_company`, `logo`, `email`, `phone`, `address`, `website`, `deskription`, `facebook`, `instagram`, `twitter`, `time`) VALUES
-(1, 'My Blog', 'logoku.png', 'arifparjjuni@gmail.com', '083844059004', 'Jl. Soka Petanahan, Kec. Klirong Kab. Kebumen, Prov. Jawa Tengah', '', 'Saya adalah Pengembang Web Developer', 'arif parjuni', '@arif_parjuni', '@arifparjuni', 1569990598);
+(1, 'My Blog', 'logoku.png', 'arifparjjuni@gmail.com', '083333123', 'Jl. Soka Petanahan, Kec. Klirong Kab. Kebumen, Prov. Jawa Tengah', '', 'Saya adalah Pengembang Web Developer', 'arif parjuni', '@arif_parjuni', '@arifparjuni', 1570847463);
 
 -- --------------------------------------------------------
 
