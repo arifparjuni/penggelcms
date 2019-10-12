@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.8.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 10, 2019 at 05:41 AM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.3
+-- Generation Time: Oct 12, 2019 at 04:26 AM
+-- Server version: 10.1.37-MariaDB
+-- PHP Version: 7.3.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -147,9 +147,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `image`, `password`, `role_id`, `is_active`, `date_created`) VALUES
-(1, 'Arif Parjuni', 'arif@gmail.com', 'aku.jpg', '$2y$10$SQLY2whJgstkRqp7x2lRZeXY1hXGWf77h44PPkdjl53zV0P1P15Zi', 2, 1, 1565622003),
-(2, 'Wasilatul', 'wasil@gmail.com', 'logoku1.png', '$2y$10$sSsDKIHG8nsLJjr3ZETK6.9MQ3uCH14JOnsNt/H9NExBOshKlkHva', 1, 1, 1565622439),
-(3, 'Arif Parjuni', 'arifparjjuni@gmail.com', 'default.jpg', '$2y$10$beG3niaM67dcvh9r31MOceOUlUM.QEjRZ7L.f/HuY5XTgIbQR4uoi', 1, 1, 1566624077);
+(2, 'Wasilatul', 'wasil@gmail.com', 'logoku1.png', '$2y$10$sSsDKIHG8nsLJjr3ZETK6.9MQ3uCH14JOnsNt/H9NExBOshKlkHva', 1, 1, 1565622439);
 
 -- --------------------------------------------------------
 
@@ -362,7 +360,7 @@ ALTER TABLE `post`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `user_access_menu`
